@@ -24,7 +24,7 @@ body {
 
 .header-box__item {
     background-color: chocolate;
-    width: 105px;
+    width: 160px;
     border: solid 1px black;
     display: flex;
     justify-content: flex-start;
