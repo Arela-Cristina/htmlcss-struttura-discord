@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+/*header box*/
+.header-box {
+    background-color: black;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.header-box__menu {
+    display: flex;
+    background-color: aquamarine;
+    width: 100%;
+    min-height: 25px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.header-box__item {
+    background-color: chocolate;
+    width: 150px;
+    border: solid 1px black;
+}
+
+.header-box__item___middle {
+    background-color: chocolate;
+    width: 300px;
+    border: solid 1px black;
+}
+
+.header-box__container {
+    background-color: #030A8C;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.header-box__content {
+    background-color: #F088F2;
+    width: 40%;
+    min-height: 210px;
+}
+}
