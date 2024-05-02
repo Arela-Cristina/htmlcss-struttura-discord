@@ -77,8 +77,12 @@ body {
     background-color: gray;
 }
 
+.section-bigbox.intense-gray {
+    background-color: #23232a;
+}
+
 .section-bigbox {
-    background-color: gray;
+    background-color: #23232a;
     width: 100%;
     min-height: 200px;
     display: flex;
@@ -90,4 +94,26 @@ body {
     width: 46%;
     min-height: 350px;
     margin: 40px;
+}
+
+/*footer*/
+.footer-box__container.intense-gray {
+    background-color: #23232a;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 40px 1px;
+}
+
+.footer-box__big-content.blue {
+    background-color: blue;
+    width: 13%;
+    min-height: 210px;
+}
+
+.footer-box__content {
+    background-color: #24b4ac;
+    width: 8.2%;
+    min-height: 210px;
 }
